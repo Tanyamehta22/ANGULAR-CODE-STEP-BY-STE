@@ -9,13 +9,11 @@ import { RouterOutlet } from '@angular/router';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'blog';
-  data = 'hello code';
-
-  displayVal:string='';
-  getValue(val: string)
+  title = 'Counter with angular';
+  count = 0
+  counter(type:string)
   {
-    console.warn(val)
-    this.displayVal= val
+    type==='add' ? this.count++:this.count--;
   }
 }
+
