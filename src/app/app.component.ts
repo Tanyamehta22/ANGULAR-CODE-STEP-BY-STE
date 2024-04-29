@@ -10,9 +10,12 @@ import { RouterOutlet } from '@angular/router';
 })
 export class AppComponent {
   title = 'blog';
-  data = 'Code step by step';
-  getValue()
+  data = 'hello code';
+
+  getName(name: any,secondName:string)
   {
-    return "Get function data" 
+    alert(name); 
+    alert(secondName);
   }
+   
 }
