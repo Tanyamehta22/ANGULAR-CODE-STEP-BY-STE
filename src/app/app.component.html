@@ -1,10 +1,9 @@
 <h1 class="heading">{{title}}</h1>
 
-<!-- Internal styling. -->
-<!-- PRIOTITY IN STYLING --INLINE>INTERNAL> COMPONENT> GLOBAL STYLING -->
-<style>
-  .heading {
-    color: blue;
-  }
-</style>
-  
+<!-- INTERPOLATION -->
+ <input type="text" name="user-name" value={{name}} disabled={{disable}}>
+ <br/> <br/>
+
+ <!-- PROPERTY BINDING -->
+ <input type ="text" name ="user-name" [value]=name [disabled]=disable>
+   

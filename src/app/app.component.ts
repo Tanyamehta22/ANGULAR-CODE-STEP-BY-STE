@@ -8,8 +8,10 @@ import { RouterOutlet } from '@angular/router';
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
+
 export class AppComponent {
-  title = 'Styling in angular';
-  
+  title = 'Property Binding';
+  name="peter"
+  disable = false;
 }
 
