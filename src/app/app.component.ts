@@ -12,7 +12,10 @@ export class AppComponent {
   title = 'blog';
   data = 'hello code';
 
-  getData(val:string){
+  displayVal:string='';
+  getValue(val: string)
+  {
     console.warn(val)
+    this.displayVal= val
   }
 }
