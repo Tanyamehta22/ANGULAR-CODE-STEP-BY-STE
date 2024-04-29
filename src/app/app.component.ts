@@ -12,8 +12,9 @@ import { RouterOutlet } from '@angular/router';
 })
 
 export class AppComponent {
-  title = 'If-else condition';
+  title = 'Multiple condition or else if';
   show= true;
+  color="red";
   
 }
 
