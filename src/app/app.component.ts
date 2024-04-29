@@ -12,10 +12,7 @@ export class AppComponent {
   title = 'blog';
   data = 'hello code';
 
-  getName(name: any,secondName:string)
-  {
-    alert(name); 
-    alert(secondName);
+  getData(val:string){
+    console.warn(val)
   }
-   
 }

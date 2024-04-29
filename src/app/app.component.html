@@ -1,3 +1,17 @@
-<h1>Function in Angular</h1>
-<button (click) = "getName('anil sidhu', 'peter')">Click Me</button>
- 
+<h1>{{title}}</h1>
+<button (click) = "getData('hello')" >Call Function</button>
+<br/>
+<br/>
+<input type="text" #box (keyup)="getData(box.value)" placeholder="event keyup"/>
+<br/>
+<br/>
+<input type="text" #box1 (keydown)="getData(box1.value)" placeholder="event keydown"/>
+<br/>
+<br/>
+<input type="text" #box2 (blur)="getData(box2.value)" placeholder="event blur"/>
+<br/>
+<br/>
+<input type="text" #box3 (input)="getData(box3.value)" placeholder="event input"/>
+
+<h1 (mouseover) = "getData('over')">Code Step by Step</h1>
+<h1 (mouseleave) = "getData('leave')">Anil Sidhu</h1>
