@@ -12,13 +12,13 @@ import { RouterOutlet } from '@angular/router';
 })
 
 export class AppComponent {
-  title = 'Nested Loop';
-  users=[
-    {name:'Anil', phone:'1111', socialAccounts:['facebook','insta','gmail']},
-    {name:'Sam', phone:'2222',socialAccounts:['youtube','insta','linked']},
-    {name:'Peter', phone: '3333',socialAccounts:['yahoo','facebook','gmail']},
-    {name:'Burce', phone:'4444',socialAccounts:['linked','insta','gmail']}
+  title = 'Style Binding';
+  color= "white";
+  bgColor = "green";
 
-  ] 
+  updateColor(){
+    this.color = "blue"
+    this.bgColor="black"
+  }
 }
 
