@@ -12,14 +12,13 @@ import { RouterOutlet } from '@angular/router';
 })
 
 export class AppComponent {
-  title = 'Switch Case';
-  users = ['Anil', 'Bhasker', 'Sam', 'Peter', 'Burce'];
-  userDetails=[
-    {name:'Anil', email:'anil@test.com', phone:'888'},
-    {name:'Bhaskar', email:'bha@test.com', phone:'888'},
-    {name:'Sam', email:'sam@test.com', phone:'222'},
-    {name:'Peter', email:'peter@test.com', phone:'888'},
-  ];
-  
+  title = 'Nested Loop';
+  users=[
+    {name:'Anil', phone:'1111', socialAccounts:['facebook','insta','gmail']},
+    {name:'Sam', phone:'2222',socialAccounts:['youtube','insta','linked']},
+    {name:'Peter', phone: '3333',socialAccounts:['yahoo','facebook','gmail']},
+    {name:'Burce', phone:'4444',socialAccounts:['linked','insta','gmail']}
+
+  ] 
 }
 
